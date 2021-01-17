@@ -6,9 +6,9 @@ Modelling based on the paper "Semi-decentralized generalized Nash equilbrium see
 Mainly implements the game formulation in section V of the paper, using the *linear price function* rather than the *monotone price function*. 
 
 Includes the following algorithms implemented:
-- Algorithm 1: preconditioned forward-backward
-- Algorithm 1B: inertial preconditioned forward-backward
-- Algorithm 5: inertial forward-reflected-backward
+- Algorithm 1: preconditioned forward-backward (```pFB.ipynb```)
+- Algorithm 1B: inertial preconditioned forward-backward (```inertialFB.ipynb```)
+- Algorithm 5: inertial forward-reflected-backward (```FoRB.ipynb```)
 
 ## Libraries used:
 - cvxopt
